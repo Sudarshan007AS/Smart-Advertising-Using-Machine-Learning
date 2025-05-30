@@ -3,20 +3,20 @@ The Smart Advertising System is an innovative machine learning-based web applica
 
 A personalized digital advertising platform that recommends relevant ads based on user demographics and behavior using machine learning.
 
-Features
+Features :
 - Collects user preferences through an interactive web form
 - Uses a trained ML model to provide targeted ad recommendations
 - Admin panel to manage ads and user feedback
 - Built with Python, Flask, and SQLite for easy deployment
 
-Technologies Used
+Technologies Used :
 - Python  
 - Flask (Web Framework)  
 - Scikit-learn (Machine Learning)  
 - SQLite (Database)
 - HTML, CSS (Frontend)
 
-Key Features
+Key Features :
 - Secure user registration and login system.
 - Dynamic ad display with real-time click tracking.
 - Real-time prediction of user clicks using ML models.
@@ -24,7 +24,7 @@ Key Features
 - User feedback loop integration for continuous learning.
 - Performance dashboard visualizing key metrics like CTR and engagement.
 
-Machine Learning Workflow
+Machine Learning Workflow :
 - Data Preprocessing: Cleaning and structuring ad metadata, user demographics, and interaction logs.
 - Feature Engineering: Encoding user profiles, ad content, and behavior patterns for model input.
 - Model Training: Building and tuning classification models to predict ad click probabilities.
