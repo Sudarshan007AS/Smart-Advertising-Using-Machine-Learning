@@ -76,7 +76,11 @@ A 25-year-old user interested in sports visits the site:
 - Collaborative filtering integration  
 - Real-time bidding simulation  
 - Admin analytics dashboard  
-- A/B testing module  
+- A/B testing module
 
+## 👤 Author
+
+**Sudarshan A S**  
+[LinkedIn](https://www.linkedin.com/in/sudarshanas) • [GitHub](https://github.com/Sudarshan007AS)  
 ---
 
