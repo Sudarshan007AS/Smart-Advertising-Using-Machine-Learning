@@ -3,30 +3,80 @@ The Smart Advertising System is an innovative machine learning-based web applica
 
 A personalized digital advertising platform that recommends relevant ads based on user demographics and behavior using machine learning.
 
-Features :
-- Collects user preferences through an interactive web form
-- Uses a trained ML model to provide targeted ad recommendations
-- Admin panel to manage ads and user feedback
-- Built with Python, Flask, and SQLite for easy deployment
+## 🛠️ Technologies Used
 
-Technologies Used :
-- Python  
-- Flask (Web Framework)  
-- Scikit-learn (Machine Learning)  
-- SQLite (Database)
-- HTML, CSS (Frontend)
+- **Frontend**: HTML, CSS  
+- **Backend**: Python, Flask  
+- **Machine Learning**: Scikit-learn, Pandas, NumPy, TF-IDF  
+- **Database**: SQLite  
+- **Visualization (optional)**: Matplotlib, Seaborn  
 
-Key Features :
-- Secure user registration and login system.
-- Dynamic ad display with real-time click tracking.
-- Real-time prediction of user clicks using ML models.
-- TF-IDF based ad content filtering to improve recommendation relevance.
-- User feedback loop integration for continuous learning.
-- Performance dashboard visualizing key metrics like CTR and engagement.
+## 💡 Key Features
 
-Machine Learning Workflow :
-- Data Preprocessing: Cleaning and structuring ad metadata, user demographics, and interaction logs.
-- Feature Engineering: Encoding user profiles, ad content, and behavior patterns for model input.
-- Model Training: Building and tuning classification models to predict ad click probabilities.
-- Recommendation Engine: Combining TF-IDF similarity and click probability to serve personalized ads.
-- Evaluation: Measuring model performance with metrics such as accuracy, precision, recall, and AUC.
+- User registration and login system  
+- Dynamic ad display with real-time click tracking  
+- Click prediction using ML models (e.g., Logistic Regression)  
+- TF-IDF based content filtering for ad similarity  
+- Feedback integration for continuous model improvement  
+- Admin panel and ad management  
+- Dashboard to view click-through rates and performance metrics  
+
+## 🔍 Machine Learning Workflow
+
+1. **Data Preprocessing**: Clean and structure ad metadata, user demographics, and click logs  
+2. **Feature Engineering**: Encode categorical data and extract TF-IDF features  
+3. **Model Training**: Train classification models on labeled interaction data  
+4. **Recommendation Engine**: Combine TF-IDF similarity and click probability  
+5. **Evaluation**: Accuracy, precision, recall, and AUC score  
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Sudarshan007AS/Smart-Advertising-Using-Machine-Learning.git
+cd Smart-Advertising-Using-Machine-Learning
+```
+
+### 2. Install dependencies
+
+```bash
+pip install flask pandas numpy scikit-learn
+```
+
+### 3. Run the application
+
+```bash
+python app.py
+```
+
+Visit `http://localhost:5000` in your browser.
+
+## 📁 Project Structure
+
+- `app.py`: Main Flask backend  
+- `ads_model.pkl`: Trained ML model for click prediction  
+- `templates/`: HTML pages  
+- `static/`: CSS and JS files  
+- `utils.py`: TF-IDF and recommendation logic  
+- `data/`: Contains sample data or SQLite DB  
+
+## 📊 Sample Use Case
+
+A 25-year-old user interested in sports visits the site:  
+
+- Their demographic and interest data is stored  
+- The system recommends sports-related ads based on click patterns  
+- Click probability is calculated using the trained model  
+- Ads are ranked by TF-IDF and click prediction  
+
+## 📌 Future Improvements
+
+- Deep learning-based recommendation system  
+- Collaborative filtering integration  
+- Real-time bidding simulation  
+- Admin analytics dashboard  
+- A/B testing module  
+
+---
+
