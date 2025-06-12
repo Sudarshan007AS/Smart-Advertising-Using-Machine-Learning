@@ -3,7 +3,7 @@ The Smart Advertising System is an innovative machine learning-based web applica
 
 A personalized digital advertising platform that recommends relevant ads based on user demographics and behavior using machine learning.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Frontend**: HTML, CSS  
 - **Backend**: Python, Flask  
@@ -11,7 +11,7 @@ A personalized digital advertising platform that recommends relevant ads based o
 - **Database**: SQLite  
 - **Visualization (optional)**: Matplotlib, Seaborn  
 
-## 💡 Key Features
+## Key Features
 
 - User registration and login system  
 - Dynamic ad display with real-time click tracking  
@@ -21,7 +21,7 @@ A personalized digital advertising platform that recommends relevant ads based o
 - Admin panel and ad management  
 - Dashboard to view click-through rates and performance metrics  
 
-## 🔍 Machine Learning Workflow
+## Machine Learning Workflow
 
 1. **Data Preprocessing**: Clean and structure ad metadata, user demographics, and click logs  
 2. **Feature Engineering**: Encode categorical data and extract TF-IDF features  
@@ -29,7 +29,7 @@ A personalized digital advertising platform that recommends relevant ads based o
 4. **Recommendation Engine**: Combine TF-IDF similarity and click probability  
 5. **Evaluation**: Accuracy, precision, recall, and AUC score  
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -52,7 +52,7 @@ python app.py
 
 Visit `http://localhost:5000` in your browser.
 
-## 📁 Project Structure
+## Project Structure
 
 - `app.py`: Main Flask backend  
 - `ads_model.pkl`: Trained ML model for click prediction  
@@ -61,7 +61,7 @@ Visit `http://localhost:5000` in your browser.
 - `utils.py`: TF-IDF and recommendation logic  
 - `data/`: Contains sample data or SQLite DB  
 
-## 📊 Sample Use Case
+## Sample Use Case
 
 A 25-year-old user interested in sports visits the site:  
 
@@ -70,7 +70,7 @@ A 25-year-old user interested in sports visits the site:
 - Click probability is calculated using the trained model  
 - Ads are ranked by TF-IDF and click prediction  
 
-## 📌 Future Improvements
+## Future Improvements
 
 - Deep learning-based recommendation system  
 - Collaborative filtering integration  
