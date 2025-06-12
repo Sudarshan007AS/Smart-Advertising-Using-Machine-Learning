@@ -80,7 +80,7 @@ A 25-year-old user interested in sports visits the site:
 
 ## 👤 Author
 
-**Sudarshan A S**  
+**Sudarshan A S**  <br>
 [LinkedIn](https://www.linkedin.com/in/sudarshanas) • [GitHub](https://github.com/Sudarshan007AS)  
 ---
 
