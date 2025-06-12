@@ -1,34 +1,3 @@
-# Smart-Advertising-Using-Machine-Learning
-The Smart Advertising System is an innovative machine learning-based web application designed to enhance the effectiveness of digital marketing campaigns by delivering personalized ad recommendations in real-time. The system analyzes user behavior, ad content, and historical interaction data to predict the likelihood of engagement, improving ad targeting accuracy and maximizing click-through rates (CTR) and marketing ROI.
-
-A personalized digital advertising platform that recommends relevant ads based on user demographics and behavior using machine learning.
-
-## Technologies Used
-
-- **Frontend**: HTML, CSS  
-- **Backend**: Python, Flask  
-- **Machine Learning**: Scikit-learn, Pandas, NumPy, TF-IDF  
-- **Database**: SQLite  
-- **Visualization (optional)**: Matplotlib, Seaborn  
-
-## Key Features
-
-- User registration and login system  
-- Dynamic ad display with real-time click tracking  
-- Click prediction using ML models (e.g., Logistic Regression)  
-- TF-IDF based content filtering for ad similarity  
-- Feedback integration for continuous model improvement  
-- Admin panel and ad management  
-- Dashboard to view click-through rates and performance metrics  
-
-## Machine Learning Workflow
-
-1. **Data Preprocessing**: Clean and structure ad metadata, user demographics, and click logs  
-2. **Feature Engineering**: Encode categorical data and extract TF-IDF features  
-3. **Model Training**: Train classification models on labeled interaction data  
-4. **Recommendation Engine**: Combine TF-IDF similarity and click probability  
-5. **Evaluation**: Accuracy, precision, recall, and AUC score  
-
 ## Getting Started
 
 ### 1. Clone the repository
@@ -69,14 +38,6 @@ A 25-year-old user interested in sports visits the site:
 - The system recommends sports-related ads based on click patterns  
 - Click probability is calculated using the trained model  
 - Ads are ranked by TF-IDF and click prediction  
-
-## Future Improvements
-
-- Deep learning-based recommendation system  
-- Collaborative filtering integration  
-- Real-time bidding simulation  
-- Admin analytics dashboard  
-- A/B testing module
 
 ## 👤 Author
 
